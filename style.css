@@ -5,6 +5,9 @@
     font-family: Roboto;
     box-sizing: border-box;
 }
+body{
+    background-color: #dddddd;
+}
 a{
     text-decoration: none;
     color: black;
@@ -15,14 +18,7 @@ a:hover{
 
 /* Side Bar */
 
-.current{
-    font-size: 20px;
-    margin-top: 30px;
-    font-weight: 300;
-    border-left: 3px solid #0782ac;
-    margin-left: -60px;
-    padding-left: 55px;
-}
+
 .header-aside{
     display: flex;
 }
@@ -34,10 +30,12 @@ a:hover{
     padding: 30px;
     border-right: 1px solid #fff;
     width: 250px;
-    margin-left: 30px;
+    height: 185vh;
 }
 .sidebar h1{
     color: #0096c7;
+    font-size: 30px;
+    font-weight: 500px;
 }
 .sidebar-list1{
     margin-top: 100px;
@@ -47,13 +45,21 @@ a:hover{
     border-top: 1px solid black;
 }
 .sidebar-items{
-    margin-top: 30px;
-    font-size: 18px;
+    margin-top: 60px;
+    font-size: 20px;
     font-weight: 100;
 }
 .sidebar-items:hover{
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 100;
+}
+.current{
+    font-size: 28px;
+    margin-top: 30px;
+    font-weight: 300;
+    border-left: 3px solid #0782ac;
+    margin-left: -30px;
+    padding-left: 25px;
 }
 
 /* Header */
@@ -61,8 +67,8 @@ a:hover{
 header{
     background-image:linear-gradient(30deg, #00b4d8, #0077b6 100%);
     padding: 20px;
-    height: 400px;
-    width: 1000px;
+    height: 600px;
+    width: 1100px;
 }
 .navbar{
     display: flex;
@@ -75,7 +81,7 @@ header{
 }
 .navbar input{
     border-radius: 10px;
-    height: 30px;
+    height: 40px;
     width: 300px;
     border: 1px solid white;
     text-align: center;
@@ -89,6 +95,7 @@ header{
 .profile p{
     margin-top: 10px;
     font-size: 20px;
+    margin-left: 15px;
 }
 .cards-list{
     margin: auto;
@@ -140,16 +147,25 @@ header{
 }
 .percentageup img{
     width: 30px;
+    height: 30px;
+    margin-top: 9px;
 }
 .percentagedown img{
     width: 30px;
+    height: 30px;
+    margin-top: 9px;
+}
+.pp{
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 20px;
 }
 
 /* Body */
 
 .statistics{
     position: absolute;
-    margin-top: -350px;
+    margin-top: -630px;
     margin-left: 280px;
     display: flex;
 }
@@ -158,6 +174,9 @@ header{
 }
 .overviewchart h2{
     color: white;
+    font-size: 23px;
+    font-weight: 100;
+    margin-top: -15px;
 }
 .overviewchart{
     background-image: linear-gradient(30deg, #03045e , #023e8a 100%);
@@ -171,7 +190,7 @@ header{
     display: flex;
 }
 .overview-toppings-inputform{
-    margin-left: 400px;
+    margin-left: 200px;
 }
 .overview-toppings input{
     font-size: 20px;
@@ -197,10 +216,73 @@ header{
     background-color: rgb(243, 243, 243);
     color: #5e72e4;
 }
-.overviewchart img{
+
+.ochart{
+    color: white;
+    display: flex;
+    margin-top: -30px;
+}
+.ochartnumbers1{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.ochartnumbers1 p{
     margin-top: 50px;
-    width: 500px;
-    height: 500px;
-    margin-left: 100px;
+}
+.ochartnumbers2{
+    margin-top: 430px;
+    display: flex;
+    margin-left: 0px;
+}
+.ochartnumbers2 p{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.ochart img{
+    margin-top: 80px;
+    width: 400px;
+    height: 400px;
+    margin-left: 60px;
     border-radius: 10px;
+    position: absolute;
+}
+
+.performance{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 343px;
+    margin-left: 100px;
+    height: 500px;
+}
+.performance h1{
+    text-align: center;
+    font-size: 30px;
+}
+.pchart{
+    display: flex;
+}
+.pchartnumbers1 p{
+    margin-top: 40px;
+}
+.pchartnumbers2{
+    margin-top: 320px;
+    display: flex;
+    margin-left: -20px;
+}
+.pchartnumbers2 p{
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.rectangles{
+    display: flex;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: -290px;
+}
+.rectangle{
+    color: rebeccapurple;
+    background-color: rebeccapurple;
+    margin-left: 50px;
+    width: 40px;
 }
